@@ -1,0 +1,65 @@
+﻿body {
+    background-image: url('../JOR.jpg');
+    font-family: Sans-serif;
+
+}
+
+
+
+.tittle1 {
+    color: white;
+    text-align: center;
+}
+
+.pigdev {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-left: 233px;
+    background: rgba(0,0,0,0.8);
+    Width: 65%;
+    Height: 75%;
+    margin-top: 126px;
+    padding-right: 40px;
+    Box-shadow: 0 15px 25px rgba(0,0,0,0.5);
+}
+
+.alldev {
+    margin-left: 16px;
+    font-size: 14px;
+    color: white;
+    margin-left: 14px;
+   
+}
+
+.text {
+    Width: 100%;
+    font-size: 16px;
+    Color: white;
+    margin-bottom: 30px;
+    border-style: none;
+    border-style: solid;
+    border-color: white;
+    outline-style: none;
+    Background: rgba(0,0,0,0.5);
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    Box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+    margin-top: 5px;
+}
+
+.save {
+    Background: #03a9f4;
+    border: none;
+    Color: white;
+    Height: 35px;
+    Width: 100%;
+    Cursor: pointer;
+    Border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+
+

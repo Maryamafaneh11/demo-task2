@@ -1,0 +1,97 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Tndex</title>
+   <link href="~/css/StyleSheet.css" rel="stylesheet" />
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#option").change(function () {
+                if ($(this).val == 1) {
+                    $(".alldev").show();
+
+                }
+                else {
+                    $(".alldev").show();
+                }
+            })
+            $("#savv").click(function(){
+                $(".text").val();
+            })
+
+        })
+    </script>
+    
+</head>
+<body>
+    <from action="Task2" method="post">
+      
+        <div class="pigdev">
+            <h2 class="tittle1">Social Security Institution مؤسسه الضمان الاجتماعي </h2>
+            
+                <div class="alldev">
+                    <label>First Name</label>
+                    <br />
+                    <input type="text" name="textFname" class="text" />
+                </div>
+
+                <div class="alldev">
+                    <label>Last Name</label>
+                    <br />
+                    <input type="text" name="textLname" class="text" />
+                </div>
+
+                <div class="alldev" id="option" float:left>
+                    <label>You Are:</label>
+                    <select name="selector">
+                        <option value="1">Teacher</option>
+                        <option value="2">Engineer</option>
+                        <option value="3">Doctor</option>
+                    </select>
+                   </div>
+            <div >
+                        <label>Gender</label>
+
+                            <input type="radio" name="gender" value="Male" />Male
+                            <input type="radio" name="gender" value="Female" />Female
+                </div>
+
+                <div class="alldev">
+                    <label >Your Salary</label>
+                    <br />
+                    <input type="text" name="textsalary"  class="text"/>
+                </div>
+
+                <div class="alldev">
+                    <label>Do you have any deduction:</label>
+                    <br />
+                    <input type="text" name="textdeduction"  class="text"/>
+                </div>
+
+                <div class="alldev">
+                    <label>Do you have any Insentive:</label>
+                    <br />
+                    <input type="text" name="textinsentive" class="text" />
+                </div>
+
+               
+                    <input type="submit" name="save" class="save" id="savv"/>
+
+            <div>
+                <span>@ViewData["mesg"] </span>
+            </div>
+               
+
+
+            </div>
+
+    </from>
+</body>
+</html>
